@@ -4,11 +4,12 @@ from app.forms import LoginForm
 
 @app.route('/')
 @app.route('/index')
+@app.route('/git')
 def index():
-	user = {'username': 'oren'}
+	user = {'username': 'jerry'}
 	posts = [
 		{
-			'author': {'username': 'John'},
+			'author': {'username': 'Greg'},
 			'body': 'Beautiful day in Portland!'
 		},
 		{
