@@ -6,14 +6,14 @@ from app.forms import LoginForm
 @app.route('/index')
 @app.route('/git')
 def index():
-	user = {'username': 'jerry'}
+	user = {'username': 'Jarrell'}
 	posts = [
 		{
-			'author': {'username': 'Greg'},
+			'author': {'username': 'Andre'},
 			'body': 'Beautiful day in Portland!'
 		},
 		{
-			'author': {'username': 'Susan'},
+			'author': {'username': 'Karen'},
 			'body': 'The Avengers movie was so cool!'
 		}
 	]
