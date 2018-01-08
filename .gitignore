@@ -1,1 +1,5 @@
+## PYC files ##
 *.pyc
+
+## Database files ##
+*.DS_Store
